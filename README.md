@@ -1,4 +1,3 @@
-```markdown
 # AP Research Lab Conference Preparation Repository
 
 This repository contains all necessary materials and resources related to the conference preparation of the AP Research Lab. It serves as a central hub for organizing and managing the various aspects of conference preparation, including but not limited to:
