@@ -13,7 +13,7 @@ This repository contains all necessary materials and resources related to the co
 To get started with this repository, clone it using the following command:
 
 ```bash
-git clone https://github.com/ap-research/compas.git
+git clone https://github.com/Seyamalam/Compas.git
 ```
 
 ## Contributing
@@ -27,9 +27,9 @@ This repository is licensed under the MIT License.
 ## Acknowledgements
 
 We acknowledge the contributions of all lab members and collaborators who have worked tirelessly to prepare for conferences. We also acknowledge the support of our institution and funding agencies that have made this research possible.
-```
 
 
-Work Distribution
------------------
-https://docs.google.com/document/d/1o98OKMsc57hLGhSHWjtr3TjopIXigzLsaVbPRktT-xo/edit?usp=sharing
+## Work Distribution
+
+You can find the details in our [Google Doc](https://docs.google.com/document/d/1o98OKMsc57hLGhSHWjtr3TjopIXigzLsaVbPRktT-xo/edit?usp=sharing).
+
