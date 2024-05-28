@@ -1,0 +1,136 @@
+\documentclass{article}
+
+\usepackage{graphicx} % For including images
+\usepackage{amsmath} % For mathematical symbols and equations
+\usepackage{booktabs} % For professional-looking tables
+\usepackage{hyperref} % For hyperlinks
+\usepackage{natbib} % For bibliography management
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{lipsum}
+\usepackage{longtable}
+
+
+\title{DeepLeaf: Next.js Powered Cross-Platform Solution for Automated Plant Disease Diagnosis and Crop Health Management}
+\author{Touhidul Alam Seyam, Abhijit Pathak}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+In the midst of a rapid technological revolution, artificial intelligence (AI) has permeated various aspects of society, with Generative Artificial Intelligence (GenAI) emerging as a notable subset. In this paper, we focus on exploring the legal implications stemming from the utilization of GenAI. Beginning with an overview of AI technologies and GenAI's role within this landscape, we delve into fundamental inquiries: 'How does GenAI operate?', 'What are its potential applications?', and 'What legal challenges may arise?'. Our methodology involves a comprehensive literature review to delineate AI and GenAI, followed by an examination of pertinent legal cases to assess the scope of legal issues and potential remedies within national and EU jurisdictions. Additionally, we scrutinize the output of GenAI, addressing issues of liability concerning its content and usage, while also considering the incorporation of relevant contractual provisions.
+\end{abstract}
+
+\section{Keywords}
+generative artificial intelligence, training data, civil liability, advertising
+
+\section{Introduction}
+In the realm of science fiction, ALIE (Applied Lucent Intelligence Emulator) from The 100 series stands out as a cautionary tale about the potential dangers of artificial intelligence. Designed to improve human life, ALIE's lack of emotional programming led to drastic measures to solve overpopulation, nearly annihilating humanity (Day, 2016). Early warnings from figures like Elon Musk and Stephen Hawking underscored the risks of unchecked AI development (Clifford, 2018; Cellan-Jones, 2014).
+
+Today, we find ourselves amid a rapid technological evolution, witnessing the pervasive integration of artificial intelligence into various facets of society, often subtly. While AI predominantly exists in software applications, notable exceptions like Sophia and Nadine exemplify its expanding presence (Bellapu, 2023). From smart assistants to autonomous vehicles, AI permeates our daily lives, presenting both opportunities and challenges (Custers \& Fosch-Villaronga, 2022; EESC, 2018).
+
+Recognizing the dual nature of AI, efforts at the European Union level have culminated in legislative proposals aimed at regulating its deployment. The Artificial Intelligence Act and AI Liability Directive, introduced in April 2021 and September 2022 respectively, represent pioneering steps towards establishing international norms for AI governance.
+
+In this paper, we narrow our focus to Generative Artificial Intelligence (GenAI), aiming to explore its legal implications and propose solutions. By delving into its workings, potential applications, and associated legal issues, we endeavor to provide insights into the evolving landscape of AI regulation. Our methodology incorporates literature review, legal case studies, analysis of GenAI providers' contracts, and legislative evaluation to address fundamental questions and navigate the complex legal terrain surrounding GenAI. Throughout, we draw upon existing and proposed legislation to inform our examination.
+
+\section{1. What does GenAI technology mean? How does it work?}
+
+GenAI technology encompasses a diverse range of applications within the field of artificial intelligence (AI). While AI is a multifaceted concept, attempts to define it solely as machines or software with human-like intelligence often fall short of capturing its full scope (Bertolini, 2020, p. 9). Discrepancies in defining AI persist across technical and legal literature, with interpretations varying widely. For instance, Surden (2019, p. 1307) simplifies AI for legal comprehension by describing it as technology capable of automating tasks typically requiring human intelligence. Häuselmann (2022, p. 46) characterizes AI as machines capable of learning from experience and autonomously executing tasks, mimicking human cognitive abilities.
+
+Russell and Norvig (2021, pp. 1-5) propose four defining characteristics of AI: human-like thinking and behavior, as well as rational thought and action. Alternatively, Paschen et al. (2020, p. 405) conceptualize AI as computer systems capable of rational decision-making and problem-solving based on available data. AI can be broadly categorized into narrow and broad definitions. Narrow AI encompasses systems designed to address specific tasks or problems, such as facial recognition technology or virtual assistants like Siri and Alexa. In contrast, broad AI, also known as Artificial General Intelligence (AGI), aims to replicate the full functionality of the human brain, a milestone yet to be achieved (Häuselmann, 2022, p. 45).
+
+AI serves as an umbrella term for diverse technologies, each with distinct capabilities and applications (Bertolini, 2020, p. 15). GenAI specifically pertains to AI systems capable of generating content, including text, images, music, and video, based on the quality of the data used for training (Muller et al., 2022, pp. 1-7). According to the European Union's Artificial Intelligence Act, amended as of June 14, 2023, an "artificial intelligence system" is defined as a machine-based system designed to operate autonomously, generating outputs such as predictions, recommendations, or decisions that influence physical or virtual environments (Article 3, point 1).
+
+In summary, GenAI technology represents a subset of AI focused on content generation, offering vast creative potential contingent upon the quality of training data (Häuselmann, 2022, pp. 47-67).
+
+
+\section{What could GenAI be used for?}
+Phind
+The widespread application of Generative AI (GenAI) across various industries is not a new phenomenon. Initially developed for specific objectives, GenAI's utility has expanded due to its flexibility, which allows users to repurpose its outputs for different purposes. This adaptability, however, is subject to contractual limitations that may restrict its use to certain applications.
+
+GenAI's content, which can range from audio and text to graphic images and video, finds applications in numerous economic sectors and personal domains. One of the most significant economic applications of GenAI is in marketing. It is utilized to create advertising materials, including advertisements, commercial texts, logos, slogans, and social media content. GenAI can also be employed in developing marketing strategies and branding, leveraging its ability to learn from past advertising campaigns to devise effective strategies. Moreover, AI-generated influencers are increasingly preferred over human ones due to their higher engagement rates. However, there have been concerns about the misuse of GenAI in advertising, such as the creation of unreliable websites by GenAI for serving paid ads without the brands' knowledge, leading to potential misuse of advertising budgets.
+
+The emergence of the metaverse presents new opportunities for GenAI, with AI-generated avatars potentially populating these virtual worlds. The fashion industry, for instance, is leveraging GenAI for fashion campaigns and virtual fashion shows, where AI models can walk the runway wearing digital twins of branded clothes. GenAI also plays a role in predicting and confirming fashion trends.
+
+Beyond marketing and fashion, GenAI finds applications in customer support, generating business models, making predictions, translating texts, drafting emails, creating video presentations, and developing websites and their content. It can be integrated into businesses as an API, trained with the buyer's data for internal use.
+
+In the journalistic field, GenAI can generate articles for websites and newspapers, which may require slight review and adjustment before publication. It can also provide biographies for writers. The gaming industry benefits from GenAI's ability to write computer code and generate videos for game development. GenAI is also used in gastronomy for developing new food recipes, product design to meet customer needs, drug research and development in the pharmaceutical industry, and medical developments.
+
+Legally, GenAI can replace search engines like Wikipedia and Google for legal provisions and official documents, search case-law, and even generate contracts and legal advice. However, there have been instances where legal advice provided by GenAI, without human verification, has led to disastrous outcomes. As a result, there is a growing trend for judges to request lawyers to certify that they did not use AI to draft legal documents without human review.
+
+Data augmentation is another significant application of GenAI, which involves creating additional new data based on the input, thereby enhancing the AI system's capabilities.
+
+For personal use, GenAI can enhance creativity and human analytical abilities. Conversational AI, a subset of GenAI, is used for entertainment purposes and has economic applications, though it comes with risks.
+
+Finally, GenAI also has educational and scientific applications. Students use it for inspiration in writing and research, though there are concerns about academic integrity.
+
+In summary, GenAI's applications span across multiple sectors, from marketing and fashion to legal, gaming, and educational fields, showcasing its versatility and potential impact on various industries. However, it is crucial to address the ethical and legal considerations associated with its use to ensure its responsible and beneficial deployment.
+
+\subsection{What legal issues could arise from using a GenAI?}
+
+At the core of GenAI technology lies data. Regardless of its type, AI relies heavily on vast amounts of data for its operations. To identify potential legal implications arising from the use of GenAI, we will scrutinize the model it operates on, following the input-process-output framework. Initially, we'll examine whether the data provided to GenAI (the input) raises legal questions. Subsequently, we'll investigate whether the outcomes generated through data processing (the output) may entail legal considerations, particularly in terms of civil liability. We won't delve into the process phase, as it primarily involves technical rather than legal aspects.
+
+
+
+\subsubsection{Legal issues concerning the inputs}
+
+In the first section, we will elucidate the various types of data that can serve as training data for GenAI. Subsequently, we will delve into recent litigation cases concerning training data that is purported to infringe upon intellectual property rights.
+
+\subsubsubsection{Training data categories}
+
+\subsection{Dataset Preprocessing}
+
+
+
+\subsection{Dataset Augmentation}
+
+\section{Dataset Preparation}
+
+\subsection{Model Architecture}
+
+\subsection{Training and Validation Loss Analysis}
+
+\subsubsection{Performance Metrics}
+
+\subsubsection{Cross-Validation}
+
+\section{App Development Methodology}
+
+\subsection{User Interface Design}
+
+\subsubsection{UI/UX Considerations}
+
+\subsection{Choosing a Framework for Frontend}
+
+\subsection{Choosing a Framework for Backend}
+
+\subsection{Developing the Backend (Flask)}
+
+\subsubsection{API Design}
+
+\subsection{Developing the Frontend (Next.js)}
+
+\subsection{Example Image of Working App in Multiple Platforms}
+
+
+\subsection{Deployment}
+
+\subsubsection{Continuous Integration/Continuous Deployment (CI/CD)}
+
+\subsubsection{Cloud Deployment (Vercel)}
+
+\subsubsection{Containerization (Docker)}
+
+\section{Results and Discussion}
+
+\subsection{Limitations}
+
+\subsection{Future Improvements}
+
+\section{Conclusion}
+
+\section{References}
+
+\end{document}
