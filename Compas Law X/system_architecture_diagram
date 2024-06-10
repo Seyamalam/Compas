@@ -1,0 +1,38 @@
+// System Architecture Diagram
+digraph {
+	Users [label="Users
+Web Client | Mobile Client | Admin Dashboard" shape=box]
+	"API Gateway" [label="API Gateway" shape=box]
+	Microservices [label="Microservices
+- User Management
+- Property Management
+- Payments
+- Transaction Management
+- Notification
+- Dispute Resolution
+- Report Generation
+- GIS Integration" shape=box]
+	"Integration Layer" [label="Integration Layer
+- Government DBs
+- Payment Gateways
+- GIS System" shape=box]
+	"Blockchain Network" [label="Blockchain Network
+- Validator Nodes
+- Smart Contracts
+- Consensus
+- IPFS
+- Off-chain DB
+- Node Network" shape=box]
+	"Cloud Infrastructure" [label="Cloud Infrastructure & Security
+- CI/CD Pipeline
+- Monitoring & Logs
+- Backup
+- Security Services
+- Load Balancers
+- Storage" shape=box]
+	Users -> "API Gateway"
+	"API Gateway" -> Microservices
+	Microservices -> "Integration Layer"
+	"Integration Layer" -> "Blockchain Network"
+	"Blockchain Network" -> "Cloud Infrastructure"
+}

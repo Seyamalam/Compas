@@ -1,0 +1,71 @@
+Explanation
+Users: The entry points for different types of users, including web clients, mobile clients, and admin dashboard.
+
+API Gateway: The centralized entry point for API requests, handling routing, security, and rate limiting.
+
+Microservices: Individual services responsible for different aspects of the system, such as user management, property management, payments, transaction management, notifications, dispute resolution, report generation, and GIS integration.
+
+Integration Layer: Connects the system to external services and databases, including government databases, payment gateways, and GIS systems.
+
+Blockchain Network: The core of the system, consisting of validator nodes, smart contracts, the consensus mechanism, IPFS for decentralized storage, and off-chain databases for larger data storage.
+
+Cloud Infrastructure & Security: The underlying infrastructure supporting the system, including CI/CD pipelines, monitoring and logging services, security services, load balancers, and storage solutions.
+
+
+
++--------------------------------------------------------+
+|                        Users                           |
+|  +-------------+  +--------------+  +----------------+ |
+|  | Web Client  |  | Mobile Client|  | Admin Dashboard| |
+|  +------+------+  +-------+------+  +-------+--------+ |
+|         |                  |                 |          |
++---------+------------------+-----------------+----------+
+          |                  |                 |
+          v                  v                 v
++--------------------------------------------------------+
+|                    API Gateway                         |
++-----------+--------------------------------------------+
+            |
+            v
++--------------------------------------------------------+
+|                    Microservices                       |
+| +------------------+  +----------------+  +-----------+|
+| | User Management  |  | Property Mgmt  |  | Payments  ||
+| +------------------+  +----------------+  +-----------+|
+| +------------------+  +----------------+  +-----------+|
+| | Transaction Mgmt |  | Notification   |  | Identity  ||
+| +------------------+  +----------------+  +-----------+|
+| +------------------+  +----------------+  +-----------+|
+| | Dispute Res.     |  | Report Gen.    |  | GIS Int.  ||
+| +------------------+  +----------------+  +-----------+|
++--------------------------------------------------------+
+            |
+            v
++--------------------------------------------------------+
+|                    Integration Layer                   |
+| +-----------------+  +----------------+  +------------+|
+| | Government DBs  |  | Payment Gateways|  | GIS System||
+| +-----------------+  +----------------+  +------------+|
++--------------------------------------------------------+
+            |
+            v
++--------------------------------------------------------+
+|                    Blockchain Network                  |
+| +----------------+  +----------------+  +-------------+|
+| | Validator Nodes|  | Smart Contracts|  | Consensus   ||
+| +----------------+  +----------------+  +-------------+|
+| +----------------+  +----------------+  +-------------+|
+| | IPFS           |  | Off-chain DB   |  | Node Network||
+| +----------------+  +----------------+  +-------------+|
++--------------------------------------------------------+
+            |
+            v
++--------------------------------------------------------+
+|               Cloud Infrastructure & Security          |
+| +-------------------+  +------------------+  +--------+|
+| | CI/CD Pipeline    |  | Monitoring & Logs|  | Backup ||
+| +-------------------+  +------------------+  +--------+|
+| +-------------------+  +------------------+  +--------+|
+| | Security Services |  | Load Balancers   |  | Storage||
+| +-------------------+  +------------------+  +--------+|
++--------------------------------------------------------+

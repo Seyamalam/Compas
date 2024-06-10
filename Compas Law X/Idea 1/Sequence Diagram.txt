@@ -1,0 +1,58 @@
+Sequence Diagram
+This diagram details the sequence of interactions between users, the system, and the blockchain during a property transfer.
+
+
+User         Web/Mobile App       API Gateway        Smart Contract       Blockchain       Database
+ |                |                   |                   |                   |                   |
+ |   Register     |                   |                   |                   |                   |
+ |--------------->|                   |                   |                   |                   |
+ |                |  Verify Identity  |                   |                   |                   |
+ |                |------------------>|                   |                   |                   |
+ |                |                   |  Fetch National   |                   |                   |
+ |                |                   |    ID Data        |                   |                   |
+ |                |                   |------------------>|                   |                   |
+ |                |                   |                   |  Verify Data      |                   |
+ |                |                   |                   |------------------>|                   |
+ |                |                   |                   |                   |                   |
+ |                |                   |   Registration    |                   |                   |
+ |                |                   |      Success      |                   |                   |
+ |                |<------------------|                   |                   |                   |
+ |                |                   |                   |                   |                   |
+ | Register       |                   |                   |                   |                   |
+ | Property       |                   |                   |                   |                   |
+ |--------------->|                   |                   |                   |                   |
+ |                |  Upload Document  |                   |                   |                   |
+ |                |------------------>|                   |                   |                   |
+ |                |                   |   Save Document   |                   |  Store Off-Chain  |
+ |                |                   |     to DB         |                   |<----------------->|
+ |                |                   |------------------>|                   |                   |
+ |                |                   |                   |                   |                   |
+ |                |                   |  Initiate Smart   |                   |                   |
+ |                |                   |     Contract      |                   |                   |
+ |                |                   |------------------>|                   |                   |
+ |                |                   |                   | Validate and Store|                   |
+ |                |                   |                   | Property Details  |                   |
+ |                |                   |                   |------------------>|                   |
+ |                |                   |                   |                   |                   |
+ |                |                   |   Registration    |                   |                   |
+ |                |                   |     Complete      |                   |                   |
+ |                |<------------------|                   |                   |                   |
+ |                |                   |                   |                   |                   |
+ | Initiate       |                   |                   |                   |                   |
+ | Transfer       |                   |                   |                   |                   |
+ |--------------->|                   |                   |                   |                   |
+ |                |   Verify Buyer    |                   |                   |                   |
+ |                |------------------>|                   |                   |                   |
+ |                |                   |  Execute Smart    |                   |                   |
+ |                |                   |    Contract       |                   |                   |
+ |                |                   |------------------>|                   |                   |
+ |                |                   |                   | Update Ownership  |                   |
+ |                |                   |                   |------------------>|                   |
+ |                |                   |                   |                   |                   |
+ |                |                   |                   | Transaction       |                   |
+ |                |                   |                   |     History       |                   |
+ |                |                   |                   |------------------>|                   |
+ |                |                   |   Transfer        |                   |                   |
+ |                |   Complete        |                   |                   |                   |
+ |<---------------|                   |                   |                   |                   |
+ |                |                   |                   |                   |                   |

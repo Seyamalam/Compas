@@ -1,0 +1,27 @@
+Entity-Relationship (ER) Diagram
+This ER diagram represents the data model for the system, showing how different entities are related.
+
+
++----------------+    1          N    +----------------+
+|    User        |------------------->|  Property      |
++----------------+                    +----------------+
+| user_id (PK)   |                    | property_id (PK)|
+| name           |                    | address         |
+| national_id    |                    | owner_id (FK)   |
+| contact_info   |                    | doc_hash        |
++----------------+                    | registration_date|
+                                      +----------------+
+          |                                 ^
+          | N                               |
+          |                                 | 1
+          v                                 |
++----------------+                    +----------------+
+|   Transaction  |                    |    Document    |
++----------------+                    +----------------+
+| transaction_id (PK)|                | document_id (PK)|
+| property_id (FK)   |                | property_id (FK)|
+| buyer_id (FK)      |                | file_hash       |
+| seller_id (FK)     |                | upload_date     |
+| timestamp          |                +----------------+
+| amount             |
++--------------------+
