@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  15 JUN 2024 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.15)  15 JUN 2024 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -281,20 +281,7 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box59
 )
-(./main.aux
-
-LaTeX Warning: Label `fig2' multiply defined.
-
-
-LaTeX Warning: Label `fig2' multiply defined.
-
-
-LaTeX Warning: Label `fig2' multiply defined.
-
-
-LaTeX Warning: Label `fig2' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -335,220 +322,210 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 54.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
-024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)
+Underfull \hbox (badness 1838) in paragraph at lines 52--54
+[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Blockchain Tech-nol-ogy, Land Re
+g-is-tra-tion,
+ []
+
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
+4/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ] [2]
 <fig1.png, id=13, 697.60625pt x 607.26875pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 86.
+Package pdftex.def Info: fig1.png  used on input line 78.
 (pdftex.def)             Requested size: 201.60077pt x 175.49185pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 <fig2.png, id=15, 733.74126pt x 723.70375pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 97.
+Package pdftex.def Info: fig2.png  used on input line 96.
 (pdftex.def)             Requested size: 201.60077pt x 198.83693pt.
-<fig3.png, id=16, 369.38pt x 735.74875pt>
+ [3 <./fig1.png> <./fig2.png>]
+<fig3.png, id=22, 369.38pt x 735.74875pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 107.
+Package pdftex.def Info: fig3.png  used on input line 105.
 (pdftex.def)             Requested size: 100.79846pt x 200.77664pt.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+10.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./fig1.png> <./fig2.png>]
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 <fig4.png, id=23, 266.9975pt x 762.85pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 118.
+Package pdftex.def Info: fig4.png  used on input line 114.
 (pdftex.def)             Requested size: 75.60077pt x 215.99442pt.
-<fig5.png, id=24, 1448.41125pt x 1032.85875pt>
-File: fig5.png Graphic file (type png)
-<use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 128.
-(pdftex.def)             Requested size: 252.0pt x 179.69705pt.
-<fig6.png, id=25, 597.23125pt x 565.11125pt>
+
+Underfull \vbox (badness 8094) has occurred while \output is active []
+
+<fig6.png, id=24, 597.23125pt x 565.11125pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 138.
-(pdftex.def)             Requested size: 201.60077pt x 190.75562pt.
-<fig7.png, id=26, 877.2775pt x 523.9575pt>
+Package pdftex.def Info: fig6.png  used on input line 124.
+(pdftex.def)             Requested size: 226.79846pt x 214.59792pt.
+ [4 <./fig3.png> <./fig4.png> <./fig6.png>]
+<fig7.png, id=32, 877.2775pt x 523.9575pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 144.
-(pdftex.def)             Requested size: 201.60077pt x 120.40375pt.
+Package pdftex.def Info: fig7.png  used on input line 132.
+(pdftex.def)             Requested size: 252.0pt x 150.50468pt.
 
-Underfull \vbox (badness 4739) has occurred while \output is active []
-
- [4 <./fig3.png> <./fig4.png> <./fig5.png (PNG copy)> <./fig6.png>]
-Underfull \hbox (badness 1635) in paragraph at lines 162--163
+Underfull \hbox (badness 1635) in paragraph at lines 150--151
 []\OT1/ptm/m/n/10 Gradually roll out the sys-tem na-tion-wide, en-sur-ing
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 173--174
+Underfull \hbox (badness 8075) in paragraph at lines 161--162
 []|\OT1/ptm/b/n/8 Blockchain-Based Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []|\OT1/ptm/b/n/8 Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []|\OT1/ptm/b/n/8 Transp-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []|\OT1/ptm/m/n/8 Limited vis-i-bil-ity and
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 179--180
+Underfull \hbox (badness 4886) in paragraph at lines 167--168
 []|\OT1/ptm/m/n/8 High trans-parency with
  []
 
 
-Overfull \hbox (5.32286pt too wide) in paragraph at lines 181--181
+Overfull \hbox (5.32286pt too wide) in paragraph at lines 169--169
 []|\OT1/ptm/b/n/8 Efficiency| 
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 183--184
+Underfull \hbox (badness 4899) in paragraph at lines 171--172
 []|\OT1/ptm/m/n/8 Lower due to re-duced
  []
 
 
-Underfull \hbox (badness 6300) in paragraph at lines 183--184
+Underfull \hbox (badness 6300) in paragraph at lines 171--172
 \OT1/ptm/m/n/8 need for in-ter-me-di-aries
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\OT1/ptm/b/n/8 Access-
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 185--186
+Underfull \hbox (badness 7504) in paragraph at lines 173--174
 []|\OT1/ptm/m/n/8 Global ac-cess via the
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 185--186
+Underfull \hbox (badness 2600) in paragraph at lines 173--174
 \OT1/ptm/m/n/8 in-ter-net, en-hanc-ing user
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 []|\OT1/ptm/b/n/8 Fraud
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 \OT1/ptm/b/n/8 Pre-ven-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []|\OT1/ptm/b/n/8 Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 \OT1/ptm/b/n/8 In-
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 189--189
+Underfull \hbox (badness 3375) in paragraph at lines 177--177
 []|\OT1/ptm/m/n/8 Susceptible to in-con-sis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\OT1/ptm/b/n/8 Regula-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/ptm/b/n/8 tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/ptm/b/n/8 Com-pli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 []|\OT1/ptm/m/n/8 Automated com-pli-ance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/ptm/b/n/8 Scalab-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 193--194
+Underfull \hbox (badness 2334) in paragraph at lines 181--182
 []|\OT1/ptm/m/n/8 High scal-a-bil-ity due to
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 203--204
+Underfull \hbox (badness 2680) in paragraph at lines 191--192
 \OT1/ptm/m/n/10 can spare con-sumers from nu-mer-ous is-sues and time-
  []
 
 [5 <./fig7.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 215--218
-\OT1/ptm/m/n/10 2. https://qz.com/india/1325423/indias-andhra-state-is-using-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--218
-\OT1/ptm/m/n/10 3. https://www.brac.net/latest-news/item/1152-31-million-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--218
-\OT1/ptm/m/n/10 face-legal-issues-every-year-land-disputes-most-severe /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--218
-\OT1/ptm/m/n/10 https://www.hiil.org/research/justice-needs-and-satisfaction-
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 231--232
+Underfull \hbox (badness 3417) in paragraph at lines 218--219
 []\OT1/ptm/m/n/8 Dr.Sangeeta, Gupta., Mo-hammed, Moaz-zam, Za-hu-rud-din., Shai
 k,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+[]\OT1/ptm/m/n/8 'Justice needs and sat-is-fac-tion in Bangladesh'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+\OT1/ptm/m/n/8 https://www.hiil.org/research/justice-needs-and-satisfaction-in-
+
  []
 
 
@@ -562,35 +539,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
-
-] (./main.aux)
+[6] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 4391 strings out of 474116
- 67699 string characters out of 5747717
- 1947190 words of memory out of 5000000
- 26709 multiletter control sequences out of 15000+600000
- 600593 words of font info for 122 fonts, out of 8000000 for 9000
+ 4427 strings out of 474116
+ 68164 string characters out of 5747717
+ 1948190 words of memory out of 5000000
+ 26741 multiletter control sequences out of 15000+600000
+ 600001 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,4551b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on main.pdf (6 pages, 383777 bytes).
+ive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ur
+w/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 323618 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

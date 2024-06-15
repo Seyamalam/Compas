@@ -14,41 +14,33 @@
 
 \title{Designing a Blockchain-Based Land and Property Registration System in Bangladesh: Technical and Legal Viability}
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\author{\IEEEauthorblockN{1\textsuperscript{st} Touhidul Alam Seyam}
+\IEEEauthorblockA{\textit{Research Assistant} \\
+\textit{BGC Trust University Bangladesh}\\
+Chattogram, Bangladesh \\
+touhidulalam@bgctub.ac.bd \\
+0009-0007-7512-1893}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{2\textsuperscript{nd} Jannatul Ferdous Sayma}
+\IEEEauthorblockA{\textit{Research Assistant} \\
+\textit{University of Chittagong}\\
+Chattogram, Bangladesh \\
+sayma4650@gmail.com \\
+0009-0001-2365-8716}
 \and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{3\textsuperscript{rd} Minhajur Rahaman}
+\IEEEauthorblockA{\textit{Research Assistant} \\
+\textit{BGC Trust University Bangladesh}\\
+Chattogram, Bangladesh \\
+minhaj.im87@gmail.com \\
+0009-0001-8744-4581}
 \and
-\IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{5\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockN{4\textsuperscript{th} Abhijit Pathak}
+\IEEEauthorblockA{\textit{Assistant Professor} \\
+\textit{BGC Trust University Bangladesh}\\
+Chattogram, Bangladesh \\
+abhijitpathak@bgctub.ac.bd \\
+0000-0001-7734-0271}
 }
 
 \maketitle
@@ -58,7 +50,7 @@ email address or ORCID}
 \end{abstract}
 
 \begin{IEEEkeywords}
-Null
+    Blockchain Technology, Land Registration, Transparency, Security, Efficiency.
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -77,76 +69,72 @@ The article proposes a blockchain-based system for secure land registration in B
 The article conducts a systematic literature review (SLR) focusing on blockchain technology-related research articles solely focused on Bangladesh. It identifies 13 sectors where Bangladeshi researchers concentrate their efforts and highlights the reasons for Bangladesh's struggle in adopting blockchain technology. The SLR procedure is evidence-based, and article selection is guided by research questions, particularly emphasizing blockchain technology adoption in Bangladesh. However, it underscores the lack of real implementation in Bangladesh for a land registration system, indicating that further exploration is required regarding the legal framework and technical feasibility of such initiatives [10].
 
 \section{Land Registry System for Bangladesh: Methodology}
-This section outlines the methodology for developing a blockchain-based land registry system in Bangladesh, incorporating visual diagrams for clarity.
+This research helps in devising a dependable, authentic, and efficient cryptographic record of 'land' property in 'Bangladesh' to eliminate fraudulent or motivated changes to the information regarding individually or mutually owned land.
 
 \subsection{System Architecture}
-The system will follow a multi-tier architecture, separating concerns for security and scalability.
+Such a tiered architecture guarantees that the system is capable of meeting the challenges posed by a country with a national registry of land. By breaking down issues into individual layers, the architecture provides enhanced opportunities for building and modifying certain parts of the system without affecting other layers, thus increasing the system's sustainability and dependability in the long run.
+
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.8\linewidth]{fig1.png}}
+    \caption{System Architecture Diagram.}
+    \label{fig1}
+\end{figure}
+
+Figure 1 depicts a system where citizens can access a land registry platform through a web or mobile application.
+
 \begin{itemize}
-    \begin{figure}[H]
-        \centerline{\includegraphics[width=0.8\linewidth]{fig1.png}}
-        \caption{System Architecture Diagram.}
-        \label{fig1}
-    \end{figure}
-    \item \textbf{Figure 1} Shows the main components (WebApp, Mobile App, Application Server, Blockchain Network, Database, External Systems) and their interactions.
+    \item The platform is built on blockchain technology, ensuring secure and transparent record-keeping.
+    \item Citizens can interact with the platform to view land ownership records and perform transactions.
+    \item The platform integrates with the national ID system for identity verification and banks for transaction processing.
+    \item The blockchain network acts as a distributed ledger, storing all land ownership records securely and immutably.
 \end{itemize}
 
 \subsection{Cloud Architecture}
 The system will be deployed on a cloud platform (e.g., AWS, Azure, GCP) for flexibility and reliability.
-\begin{itemize}
-    \begin{figure}[H]
-        \centerline{\includegraphics[width=0.8\linewidth]{fig2.png}}
-        \caption{Cloud Architecture Diagram.}
-        \label{fig2}
-    \end{figure}
-    \item \textbf{Figure 2} Illustrates the deployment of components within a Virtual Private Cloud (VPC), including subnets for web servers, application servers, and the database.
-\end{itemize}
+
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.8\linewidth]{fig2.png}}
+    \caption{Cloud Architecture Diagram.}
+    \label{fig2}
+\end{figure}
+
+Figure 2 shows the system that integrates a blockchain network to implement a system. It is a web-based system and clients can access it over the internet with a web server. External traffic goes directly to an application server that communicates with the blockchain network and databases. It also enables secure and transparent data storage and processing due to one interaction of the personnel. In the solution architecture, the web server, application server, and database are deployed in the Virtual Private Cloud (VPC) as VPC ensures the isolation from other resources. This architecture points out the process of bringing a new system of blockchain into a conventional system, though the system promises to provide great security measures, more transparent modes, and efficient results.
 
 \subsection{Data Modeling}
-\begin{itemize}
     \begin{figure}[H]
         \centerline{\includegraphics[width=0.4\linewidth]{fig3.png}}
         \caption{Entity Relationship Diagram (ERD).}
         \label{fig3}
     \end{figure}
-    \item \textbf{Figure 3} Represents the key entities (Citizen, Land Parcel, Transaction, Document, etc.) and their attributes, relationships, and cardinality.
-\end{itemize}
+
+The following is a database model of the land management system in Bangladesh; dealing with land parcels and ownership transactions; known as the Entity-Relationship Diagram (ERD) (Figure 3). It consists of three primary entities: These are the three main pillars of a modern land administration system, namely Citizen, Land Parcel, and Transaction. The Citizen entity is individually associated with a specific citizen while the Land Parcel signifies the land parcels on self. The Transaction entity stores the transaction that occurs in the sale of land parcels and it may contain data such as \texttt{transaction\_id}, \texttt{parcel\_id}, \texttt{buyer\_id}, \texttt{seller\_id}, and date. These bonds are important for the operation of the system because of the interactions among the connected entities. Owns relationship creates a link between a citizen and different land plots, while the Involved establishes that a land parcel can be involved in several transactions. Since the structure of the ERD enforces strict discipline on the distinct data within the system, data upkeep is concise.
 
 \subsection{Security Design}
-Security is paramount. The following measures will be implemented:
-\begin{itemize}
     \begin{figure}[H]
         \centerline{\includegraphics[width=0.3\linewidth]{fig4.png}}
-        \caption{Security Diagram (Annotated).}
-        \label{fig2}
+        \caption{Security Diagram.}
+        \label{fig4}
     \end{figure}
-    \item \textbf{Figure 4} Shows security measures integrated into the architecture (firewall, authentication, authorization, data encryption on the App Server, blockchain immutability).
-\end{itemize}
 
-\subsection{Process Flows}
-\begin{itemize}
-    \begin{figure}[H]
-        \centerline{\includegraphics[width=\linewidth]{fig5.png}}
-        \caption{Sequence Diagram.}
-        \label{fig2}
-    \end{figure}
-    \item \textbf{Figure 5} Illustrates a detailed sequence diagram for the "Property Transfer" use case. This diagram depicts the message flow and interactions between actors (Seller, Buyer), system components, and the blockchain.
-\end{itemize}
+The flow chart depicts the process of obtaining the right to access the blockchain network with the help of a protected API. The user first enters the URL in the address bar, and the connection to the Web is made by the TCP through the firewall. Request is passed through a web application, this step checks the legitimacy of the user. The request finally proceeds to an application server to be checked for authorization or other processes and data encryption. The actual transaction in this context is recorded in a peer-to-peer manner onto the blockchain network and within an immutable ledger.
+
 
 \subsection{Deployment \& State Management}
-\begin{itemize}
     \begin{figure}[H]
-        \centerline{\includegraphics[width=0.8\linewidth]{fig6.png}}
+        \centerline{\includegraphics[width=0.9\linewidth]{fig6.png}}
         \caption{Deployment Diagram (Conceptual).}
-        \label{fig2}
+        \label{fig6}
     \end{figure}
-    \item \textbf{Figure 6} Provides a high-level overview of the physical deployment of the system, including the user's devices, network infrastructure, servers, and the blockchain network.
+    Figure 5 depicts a system architecture for a Land Management application. It includes components such as User Interface (Web App, Mobile App), API Gateway, Land Management Service, Identity Service, Blockchain Interface, Database (Off-chain), and Blockchain Network.
+
+\subsection{Life Cycle of the Model}
     \begin{figure}[H]
-        \centerline{\includegraphics[width=0.8\linewidth]{fig7.png}}
-        \caption{Cloud Architecture Diagram.}
-        \label{fig2}
+        \centerline{\includegraphics[width=\linewidth]{fig7.png}}
+        \caption{Life Cycle of the Model.}
+        \label{fig7}
     \end{figure}
-    \item \textbf{Figure 7} Models the lifecycle of a "Land Parcel" entity, depicting its various states (Available, Pending Transfer, Registered, Under Dispute) and the transitions between them.
-\end{itemize}
+
+    The model (Figure 6) illustrates the lifecycle of a "Land Parcel" entity, depicting its various states (Available, Pending Transfer, Registered, Under Dispute) and the transitions between them.
 
 \subsection{Implementation and Testing}
 \begin{itemize}
@@ -212,12 +200,11 @@ In this age-old traditional land management and registry system of Bangladesh, m
  A study conducted in 2017, was conducted in collaboration with Netherlands based nonprofit The Hague Institute for Innovation of Law (HiiL), the Government of Netherlands, and BRAC. Every year  31 million people face legal dilemmas in Bangladesh.Here land related legal disputes come out on top of the rest. Around 29\% or 8 million people are facing legal problems arise from the land disputes in Bangladesh every year.[13] Thus It's high time to provide people relief from these long time land related disputes by enabling  digitization in land management sector as blockchain system. \\
 
 
- 1. https://www.printfriendly.com/p/g/iSCm8C\\
- 2. https://qz.com/india/1325423/indias-andhra-state-is-using-blockchain-to-build-capital-amaravati\\
- 3. https://www.brac.net/latest-news/item/1152-31-million-face-legal-issues-every-year-land-disputes-most-severe / https://www.hiil.org/research/justice-needs-and-satisfaction-in-bangladesh/
 
 
 \section{Conclusion}
+This is the context in which the research paper presents a conceptual framework that would be particularly developed for the adoption of the registration of land through the use of Blockchain technology in Bangladesh and which seeks to increase the transparency as well as the centralization of the documentation; as well as the authenticity and reliability of the land registration. it is clearly stated that seminal benefits of the system include aspects such as enhanced security, transparency, and efficiency in land registration curtailing corruption, and building confidence in transactional real estate. It shows fewer chances of fraud, better data accuracy, code compliance to regulatory scrutiny, and high usability compared to the preexisting land registration systems all implemented with the help of blockchain systems. In line with the recommendation given in the paper, side-chain features, Non-Fungible Tokens (NFTs), and decentralized data storage would serve to strengthen security and increase confidence and transparency in the processes involved in the registration of land. Accordingly, to offer satisfactory reliability and efficiency in property transactions leading to genuine and legitimate real property rights for individuals within Bangladesh, the study endorses the use of blockchain technology. As a whole, the research emphasizes the key tenets of blockchain and its application in remediating the weaknesses and complications of the existing land registration system in Bangladesh.
+
 
 \begin{thebibliography}{00}
 \bibitem{b1} Bianca, Gaudenzi. (2023). A Blockchain-Based Secured Land Record System Using Hyperledger Fabric.   doi: 10.1007/978-981-19-8032-9\_13
@@ -230,6 +217,9 @@ In this age-old traditional land management and registry system of Bangladesh, m
 \bibitem{b8} Galih, Praba, Kusuma., Ch., Rupa., S., R., Juhi, Reshma. (2023). Secure Storage of Land Records and Implementation of Land Registration using Ethereum Blockchain.   doi: 10.1109/ICAIS56108.2023.10073887
 \bibitem{b9} Dr.Sangeeta, Gupta., Mohammed, Moazzam, Zahuruddin., Shaik, Waseem, Akram. (2021). Land registration using blockchain technology. Journal of emerging technologies and innovative research.
 \bibitem{10} (2022). A Systematic Literature Review of Blockchain Technology Adoption in Bangladesh. Annals of emerging technologies in computing.,  doi: 10.33166/aetic.2022.01.001
+\bibitem{11} Mohammad Faysal Saleh, 'Drawbacks of land administration system in Bangladesh and some feasible solutions' (Bangladesh Law Digest, August 19, 2015)
+\bibitem{12} Ananya Bhattacharya. 'Blockchain is helping build a new Indian city, but it's no cure for corruption' (Quartz, July 17, 2018)
+\bibitem{13}'Justice needs and satisfaction in Bangladesh' https://www.hiil.org/research/justice-needs-and-satisfaction-in-bangladesh/
 \end{thebibliography}
 
 \end{document}
